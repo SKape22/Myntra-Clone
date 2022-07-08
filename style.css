@@ -1,4 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 html, body {
   height: 100%;
   width: 100%;
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  position: sticky;
+  width: 85vw;
+  top: 0;
+  background: white;
+  height: 80px;
+  box-shadow: rgba(0,0,0,0.15) 0px 2.5px 7.5px;
+}
+
+.rightsub{
+  display:flex;
+  margin:12px;
+}
+
+.left img{
+  height:38px;
+  width:70px;  
+}
+
+.containerHeader{
+  padding: 0 7.5vw;
+}
+
+.container{
+  padding: 0 7.5vw;
+}
+
+
+.searchbar{
+  width: 34vw;
+  background: #f5f5f6;
+  height: 2vw;
+  padding: 4px 17px;
+  border: none;
+}
+
+nav{
+  font-size: 11px;
+  font-weight: bolder;
+  padding: 17px;
+}
+
+nav ul li{
+  list-style: none;
+  padding: 0 12px;
+}
+
+.section1{
+  background: #f7f7f7;
+}
+
+.homepic{
+  padding-top:3.5px;
+  width: 84vw;
+}
+
+.minipic{
+  width: 12vw;
+}
+
+.section2{
+  background: #f7f7f7;
+  padding: 0 28vw;
+}
+
+.minipic2 {
+    width: 8vw;
+    margin: 2vw;
+}
+
+.minipic3 {
+  width: 12vw;
+  margin: 1vw;
+}
+
+footer{
+  padding:6px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+@media (max-width: 1820px){
+  
+  header{
+    height:115px;
+  }
+  
+  nav{
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .right{
+    flex-direction: column;
+  }
+  
+  .rightsub{
+    display:flex;
+    margin:12px;
+  }
+  
+  nav ul li{
+    list-style: none;
+    padding: 0 6px;
+    font-size: 10px;
+  }
+  
+  .left img{
+    height:19px;
+    width:35px;  
+  }
+  
+  .containerHeader{
+    padding: 0 8vw;
+  }
+  
+  .nav{
+    font-size: 9px;
+    font-weight: bolder;
+    padding: 26px;
+  }
+
+  .searchbar{
+    width: 60vw;
+    background: #f5f5f6;
+    height: 2vw;
+    padding: 4px 17px;
+    border: none;
+  }
+  
+  footer{
+  padding:6px;
+  font-size: 9px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
 }
